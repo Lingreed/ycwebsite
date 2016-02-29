@@ -1,0 +1,621 @@
+
+/* media */
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 67.1875%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 67.1875%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 67.1875%;
+    }
+}
+
+@media screen and (max-width: 1700px){
+	html {
+        font-size: 50%;
+    }
+    .contactUs-icon-right-01 input{
+        height:44.5px;
+    }
+}
+
+@media screen and (max-width: 1530px) {
+    html {
+        font-size: 48%;
+    }
+    .contactUs-icon-right-01 input{
+        height:40.25px;
+    }
+    .contactUs-icon-right-txt{
+        line-height:3.5em;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    html {
+        font-size: 47%;
+    }
+    .contactUs-icon-right-01 input{
+        height:35.25px;
+    }
+    .contactUs-icon-right-txt{
+        line-height:3em;
+    }
+    .footer-icon-txt{
+        font-size:12px;
+        -webkit-transform:scale(0.8);
+        display:block;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    html {
+        font-size: 40%;
+    }
+    .contactUs-icon-right-01 input{
+        height:29.5px;
+    }
+    .contactUs-icon-right-txt{
+        line-height:2.5em;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    html{
+        font-size:34%;
+    }
+    .contactUs-icon-right-01 input{
+        height:25.25px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    html{
+        font-size:29%;
+    }
+    
+    .contactUs-icon-right-txt{
+        line-height:2em;
+    }
+    .contactUs-icon-right-01 input{
+        height:20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html{
+        font-size:72.5%;
+    }
+    .container {
+        width: 87.8125%;
+    }
+    /* navigation section */
+    
+    .navbar-top{
+        width:100%;
+        padding-top:13.534%;
+    }
+    .navbar-header{
+        width:83.79%;
+        padding-top:3.2%;
+    }
+    .navbar-header a.navbar-home{
+        display:block;
+        position:absolute;
+        top:80%;
+        left:0px;
+        width:6.7%;
+        background:none;
+        border:none;
+        margin:0px;
+        padding:0px;
+        z-index:10;
+    }
+    .navbar-header a.navbar-home img{
+        width:100%;
+    }
+    .navbar-header a{
+        position:absolute;
+        width:100%;
+        text-align:center;
+        z-index:-1;
+    }
+    .navbar-header a img{
+        width:31.9%;
+    }
+    .nav>li.nav-home{
+        display:none;
+    }
+    .navbar-collapse{
+        width:35%;
+        position:absolute;
+        top:100%;
+        right:0%;
+        padding:0%;
+    }
+    .navbar-default .navbar-collapse{
+        border:none;
+    }
+    .sticky-navigation-action3{
+      background:url(/ycwebsite/images/nav-bg.png) no-repeat scroll ;
+      background-size:cover;
+    }
+    .sticky-navigation-action4{
+      background:url(/ycwebsite/images/nav-bg2.png) no-repeat scroll ;
+      background-size:cover;
+    }
+    .navbar-collapse ul{
+        position:relative;
+        padding:0% 0%;
+        margin:0%;
+    }
+    .navbar-collapse ul li{
+        float:none;
+        border-bottom:1px rgba(131, 132, 132, 0.2) solid;
+    }
+    .navbar-default .navbar-nav li a{
+        border:none;
+        display:block;
+        width:100%;
+        text-align:center;
+        line-height:3em;
+        font-size:1.8rem;
+    }
+    .navbar-default .navbar-nav li a:hover{
+        background:rgba(255, 255, 255, 0.44);
+    }
+
+   /* home section */  
+   .item-01 .carousel-caption{
+       top:32.3%;
+   }
+   .item-01 .carousel-caption .carousel-btn{
+       font-size:1.824rem;
+   }
+   .item-02 .carousel-caption{
+       top:23.3%;
+   }
+   .item-02 .carousel-caption .carousel-top{
+       width:100%;
+       text-align:center;
+   }
+   .item-02 .carousel-caption .carousel-top img{
+       max-width:17.5%;
+   }
+   .item-02 .carousel-caption .carousel-con{
+       text-align:center;
+       font-size:3.6rem;
+       padding-top:6.3%;
+   }
+   .item-02 .carousel-caption .carousel-btn{
+        width:100%;
+        text-align:center;
+        margin-left:0;
+    }
+    .item-02 .carousel-caption .carousel-btn img{
+        max-width:56%;
+    }
+    .item-03 .carousel-caption .carousel-top {
+        width:19%;
+    }
+    .item-03 .carousel-caption .carousel-con{
+        font-size:2.381rem;
+    }
+    .carousel-inner>.item>img.item-img {
+        display:none;
+    }
+    .carousel-inner>.item>img.media-item-img {
+        display:block;
+        width:100%;
+        max-width:none;
+    }
+
+    /* social icons section */
+
+    .yc-icons {
+        padding:6.8% 0;
+    }
+    .yc-icons .icons-01 {
+        width: 64.2%;
+        margin-left:3%;
+     }
+
+     .yc-icons .icons-02 {
+        width: 87%;
+        float:left;
+        margin-top: 12.6%;
+     }    
+    .icons-title{
+        font-size:2.138rem;
+    }
+    .icons-txt{
+        font-size:1.68rem;
+    }
+
+    /* success section */
+
+    .yc-success{
+        padding-top:11.25%;
+        margin-top:-11.25%;
+    }
+    .yc-success img{
+        max-width:16.33%;
+        margin:5.4% auto;
+    }
+
+    /* happylife section */
+
+    .happylife-bg {
+        display: none;
+    }
+
+    .media-happylife-bg {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+
+    .happylife-top {
+        border: none;
+        padding-top:11.654%;
+    }
+    .happylife-top .happylife-top-title {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .happylife-top .happylife-top-title img {
+        max-width: 24%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .happylife-top .happylife-top-right {
+        width: 100%;
+        clear: both;
+        margin-top: 7%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align:left;
+    }
+    .happylife-top .happylife-top-right img {
+        max-width: 4.61%;
+        margin-left:16%;
+    }
+
+    .happylife-top .happylife-top-right img.first {
+        margin-left: 5%;
+    }
+    .happylife-top .happylife-top-right img.happylife-top-04{
+        max-width:8.01%;
+    }
+    .happylife-icon{
+        margin-top:7.895%;
+    }
+    .happylife-icon-right-01 {
+        float:left;
+        width: 66%;
+        margin-left: 0%;
+    }
+    .happylife-icon-left {
+        margin-top:3.759%;
+        width: 78.3%;
+        margin-left: -7%;
+    }
+
+    .happylife-icon-right-02 {
+        width: 100%;
+        float:left;
+        margin-left: 2%;
+        margin-top:-7%;
+    }
+    .happylife-icon-right-02 .happylife-03-01{
+        margin-top:12.4%;
+    }
+
+    /* happyhealthy section */
+
+    .happyhealthy-bg {
+        display: none;
+    }
+    .media-happyhealthy-bg {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+    .happyhealthy-top {
+        width: 100%;
+        padding-top:14.474%;
+    }
+    .happyhealthy-top img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .happyhealthy-top .img-01 {
+        width: 18.5%;
+        max-width:10000%;
+        margin-top:0;
+    }
+    .happyhealthy-top .img-02 {
+        width: 18.2%;
+        max-width:10000%;
+        margin-top: 3.759%;
+    }
+    .happyhealthy-top .img-03 {
+        width: 78.3%;
+        max-width:10000%;
+        margin-top: 5.639%;
+    }
+    .happyhealthy-icon {
+        width: 100%;
+        margin-top: 13.158%;
+        margin-left:3%;
+    }
+    .happyhealthy-icon img {
+        max-width: 32.4%;
+    }
+    .happyhealthy-icon img.happyhealthy-icon-01 {
+        display: none;
+    }
+    .happyhealthy-icon img.happyhealthy-icon-02{
+        float:left;
+        margin-left:-4%;
+        margin-top:13%;
+    }
+    .happyhealthy-icon img.happyhealthy-icon-03 {
+        float:left;
+        max-width:39%;
+    }
+    .happyhealthy-icon img.happyhealthy-icon-04 {
+        float:left;
+        margin-top:13%;
+        margin-left:-0.1%;
+    }
+    .happyhealthy-icon img.happyhealthy-icon-05 {
+        display: none;
+    }
+
+    /* childrenshospita section */
+
+   .childrenshospital-bg {
+        display: none;
+    }
+    .media-childrenshospital-bg {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+    .childrenshospital-left {
+        width: 55%;
+        margin-top:0px;
+        margin-left: 13%;
+        float: none;
+        padding-top: 7.038%;
+    }
+    .childrenshospital-left img {
+        max-width: 100%;
+        margin-top: 2%;
+    }
+    .childrenshospital-left .childrenshospital-02{
+        width:70%;
+        margin-left:27%;
+    }
+    .childrenshospital-left .childrenshospital-02-title{
+        font-size:2.128rem;
+        text-align:center;
+    }
+    .childrenshospital-left .childrenshospital-02-txt{
+        font-size:1.818rem;
+        text-align:center;
+    }
+    .childrenshospital-left .childrenshospital-03 {
+        display: none;
+    }
+    .childrenshospital-left .childrenshospital-04 {
+         display: none;
+    }
+    .childrenshospital-right {
+        width: 79%;
+        margin-top: 9%;
+        margin-left: 11%;
+        float:none;
+        text-align:left;
+    }
+    .childrenshospital-right img.childrenshospital-02{
+        max-width:50.1%;
+    }
+    .childrenshospital-right img.childrenshospital-03{
+        max-width:42.9%;
+        margin-left:4%;
+    }
+
+    /* contactUs section */
+
+    .contactUs{
+        padding-top:11.25%;
+        margin-top:-11.25%;
+    }
+    .contactUs-title{
+        padding:6% 0;
+    }
+    .contactUs-title img{
+        max-width:15%;
+    }
+    .contactUs-icon{
+        padding:7.031% 0 9.375% 0;
+    }
+    .contactUs-icon-left {
+        width: 100%;
+    }
+    .contactUs-icon-left-01 .marginT {
+        margin-top: 2%;
+    }
+    .contactUs-icon-left-01 p {
+        line-height: 2em;
+        font-size:1.643rem;
+    }
+    .contactUs-icon-right {
+        width: 90%;
+        margin-top:7.519%;
+        margin-left:7.5%;
+        float:left;
+    }
+    .contactUs-icon-right-01 input {
+        height:46px;
+        font-size:1.844rem;
+    }
+    .contactUs-icon-right-01 .contactUs-icon-right-input-yz{
+        width:70.3%;
+    }
+    .contactUs-icon-right-01 img{
+        max-width:21%;
+    }
+    .contactUs-icon-right-01 textarea{
+        font-size:1.844rem;
+    }
+    .contactUs-icon-right-01 button{
+        font-size:1.892rem;
+    }
+    .contactUs-icon-right-txt{
+        line-height:50px;
+    }
+    .required{
+        font-size:1.844rem;
+    }
+
+    /* footer section */
+
+    .footer {
+        padding:5.156% 0;
+    }
+    .footer-right{
+        display:none;
+    }
+    .footer-icon {
+        width: 50.752%;
+        float: none;
+        margin: 0 auto;
+    }
+    .footer-icon-logo {
+        width: 72%;
+        margin: 0 auto;
+    }
+    .footer-icon-logo img {
+        max-width: 100%;
+    }
+    .footer-icon-txt {
+        font-size: 0.993rem;
+        -webkit-transform:scale(0.8);
+        padding-left: 0%;
+        margin-top: 5%;
+        text-align:center;
+    }
+}
+@media screen and (max-width: 720px){
+    html{
+        font-size:65.5%;
+    }
+}
+
+@media screen and (max-width: 640px){
+     html{
+        font-size:62.5%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    html{
+        font-size:60.5%;
+    }
+    .contactUs-icon-right-01 input{
+        height:44.6px;
+    }
+
+}
+
+@media screen and (max-width: 540px){
+    html{
+        font-size:54.5%;
+    }
+    .contactUs-icon-right-01 input{
+        height:37px;
+    }
+    .contactUs-icon-right-txt{
+        line-height:37px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    html {
+        font-size: 47.5%;
+    }
+}
+
+@media screen and (max-width: 490px){
+    
+    html{
+        font-size:45.5%;
+    }
+    .contactUs-icon-right-01 input{
+        height:34px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    html {
+        font-size: 43.5%;
+    }
+    
+}
+
+@media screen and (max-width: 445px){
+    html{font-size:40.5%;}
+    
+    .contactUs-icon-right-01 input{
+        height:30px;
+    }
+    .contactUs-icon-right-txt{
+        line-height:30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    html{font-size:37.5%;}
+    .contactUs-icon-right-01 input{
+        height:27px;
+    }
+    .contactUs-icon-right-01 button{
+        line-height:1.7em;
+    }
+   .contactUs-icon-right-txt{
+       line-height:27px;
+   }
+}
+
+@media screen and (max-width: 360px){
+    html{font-size:34.5%;}
+    .navbar-default .navbar-nav li a{
+        padding:0;
+    }
+    .contactUs-icon-right-01 input{
+        font-size:12px;
+        height:23px;
+    }
+    .contactUs-icon-right-01 textarea{
+        font-size:12px;
+        height:7em;
+    }
+    .contactUs-icon-right-txt{
+        line-height:23px;
+    }
+    
+}
